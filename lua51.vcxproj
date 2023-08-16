@@ -19,6 +19,34 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fpm\fixed.hpp" />
+    <ClInclude Include="fpm\ios.hpp" />
+    <ClInclude Include="fpm\math.hpp" />
+    <ClInclude Include="lapi.h" />
+    <ClInclude Include="lauxlib.h" />
+    <ClInclude Include="lcode.h" />
+    <ClInclude Include="ldebug.h" />
+    <ClInclude Include="ldo.h" />
+    <ClInclude Include="lfunc.h" />
+    <ClInclude Include="lgc.h" />
+    <ClInclude Include="llex.h" />
+    <ClInclude Include="llimits.h" />
+    <ClInclude Include="lmem.h" />
+    <ClInclude Include="lobject.h" />
+    <ClInclude Include="lopcodes.h" />
+    <ClInclude Include="lparser.h" />
+    <ClInclude Include="lstate.h" />
+    <ClInclude Include="lstring.h" />
+    <ClInclude Include="ltable.h" />
+    <ClInclude Include="ltm.h" />
+    <ClInclude Include="lua.h" />
+    <ClInclude Include="luaconf.h" />
+    <ClInclude Include="lualib.h" />
+    <ClInclude Include="lundump.h" />
+    <ClInclude Include="lvm.h" />
+    <ClInclude Include="lzio.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="lapi.c" />
     <ClCompile Include="lauxlib.c" />
     <ClCompile Include="lbaselib.c" />
@@ -51,38 +79,6 @@
     <ClCompile Include="lzio.c" />
     <ClCompile Include="print.c" />
     <ClCompile Include="struct.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="fpm\fixed.hpp" />
-    <ClInclude Include="fpm\ios.hpp" />
-    <ClInclude Include="fpm\math.hpp" />
-    <ClInclude Include="lapi.h" />
-    <ClInclude Include="lauxlib.h" />
-    <ClInclude Include="lcode.h" />
-    <ClInclude Include="ldebug.h" />
-    <ClInclude Include="ldo.h" />
-    <ClInclude Include="lfunc.h" />
-    <ClInclude Include="lgc.h" />
-    <ClInclude Include="llex.h" />
-    <ClInclude Include="llimits.h" />
-    <ClInclude Include="lmem.h" />
-    <ClInclude Include="lobject.h" />
-    <ClInclude Include="lopcodes.h" />
-    <ClInclude Include="lparser.h" />
-    <ClInclude Include="lstate.h" />
-    <ClInclude Include="lstring.h" />
-    <ClInclude Include="ltable.h" />
-    <ClInclude Include="ltm.h" />
-    <ClInclude Include="lua.h" />
-    <ClInclude Include="luaconf.h" />
-    <ClInclude Include="lualib.h" />
-    <ClInclude Include="lundump.h" />
-    <ClInclude Include="lvm.h" />
-    <ClInclude Include="lzio.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -10,6 +10,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fpm\ios.hpp">
+      <Filter>fpm</Filter>
+    </ClInclude>
+    <ClInclude Include="fpm\math.hpp">
+      <Filter>fpm</Filter>
+    </ClInclude>
+    <ClInclude Include="fpm\fixed.hpp">
+      <Filter>fpm</Filter>
+    </ClInclude>
+    <ClInclude Include="lapi.h" />
+    <ClInclude Include="lauxlib.h" />
+    <ClInclude Include="lcode.h" />
+    <ClInclude Include="ldebug.h" />
+    <ClInclude Include="ldo.h" />
+    <ClInclude Include="lfunc.h" />
+    <ClInclude Include="lgc.h" />
+    <ClInclude Include="llex.h" />
+    <ClInclude Include="llimits.h" />
+    <ClInclude Include="lmem.h" />
+    <ClInclude Include="lobject.h" />
+    <ClInclude Include="lopcodes.h" />
+    <ClInclude Include="lparser.h" />
+    <ClInclude Include="lstate.h" />
+    <ClInclude Include="lstring.h" />
+    <ClInclude Include="ltable.h" />
+    <ClInclude Include="ltm.h" />
+    <ClInclude Include="lua.h" />
+    <ClInclude Include="luaconf.h" />
+    <ClInclude Include="lualib.h" />
+    <ClInclude Include="lundump.h" />
+    <ClInclude Include="lvm.h" />
+    <ClInclude Include="lzio.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="lapi.c" />
     <ClCompile Include="lauxlib.c" />
     <ClCompile Include="lbaselib.c" />
@@ -42,43 +76,5 @@
     <ClCompile Include="lzio.c" />
     <ClCompile Include="print.c" />
     <ClCompile Include="struct.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lapi.h" />
-    <ClInclude Include="lauxlib.h" />
-    <ClInclude Include="lcode.h" />
-    <ClInclude Include="ldebug.h" />
-    <ClInclude Include="ldo.h" />
-    <ClInclude Include="lfunc.h" />
-    <ClInclude Include="lgc.h" />
-    <ClInclude Include="llex.h" />
-    <ClInclude Include="llimits.h" />
-    <ClInclude Include="lmem.h" />
-    <ClInclude Include="lobject.h" />
-    <ClInclude Include="lopcodes.h" />
-    <ClInclude Include="lparser.h" />
-    <ClInclude Include="lstate.h" />
-    <ClInclude Include="lstring.h" />
-    <ClInclude Include="ltable.h" />
-    <ClInclude Include="ltm.h" />
-    <ClInclude Include="lua.h" />
-    <ClInclude Include="luaconf.h" />
-    <ClInclude Include="lualib.h" />
-    <ClInclude Include="lundump.h" />
-    <ClInclude Include="lvm.h" />
-    <ClInclude Include="lzio.h" />
-    <ClInclude Include="fpm\ios.hpp">
-      <Filter>fpm</Filter>
-    </ClInclude>
-    <ClInclude Include="fpm\math.hpp">
-      <Filter>fpm</Filter>
-    </ClInclude>
-    <ClInclude Include="fpm\fixed.hpp">
-      <Filter>fpm</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
   </ItemGroup>
 </Project>
